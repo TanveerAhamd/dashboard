@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div class="container-fluid position-relative">
+        <div class="row">
+            <div class="col-3 bg-black scrollbar scrollbar-inner overflow-y-auto overflow-x-hidden position-stiky h-100 ">
+                <nav class="navbar  ">
+                    <div class="container-fluid ">
+                        <a class="navbar-brand" href="#">
+                            <img src="./logo/logo_light.png" alt="" class="img-fluid w-50">
+                        </a>
+                    </div>
+                </nav>
+                <div class="Sidebar-content text-white">
+                    <div class="nav nav-secondary" style="flex-direction: column;">
+                        <div class="nav-item active my-3">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        <i class="ri-home-office-line me-4"></i>
+                                        <span>Dashboard</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Dashboard 1</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-3">
+                            <p>COMPONENTS</p>
+                        </div>
+                        <div class="nav-item my-3">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        <i class="ri-stack-fill me-3"></i>
+                                        <span>Base</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li class="my-3">Avatars</li>
+                                            <li>Buttons</li>
+                                            <li class="my-3">Grid system</li>
+                                            <li>Panels</li>
+                                            <li class="my-3">Notifications</li>
+                                            <li>Sweet Alert</li>
+                                            <li class="my-3">Font Awesome Icons</li>
+                                            <li>Simple Line Icons</li>
+                                            <li class="my-3">Typography</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-item my-3>
+                                <div class=" accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    <i class="ri-layout-grid-fill me-4"></i>
+                                    <span>Slidebar Layouts</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Sidebar style 2</li>
+                                        <li>Icon Menue</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-item my-3">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                        aria-controls="flush-collapseFour">
+                                        <i class="ri-pencil-fill me-4"></i>
+                                        <span>Forms</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Basic Form</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-item my-3">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree1" aria-expanded="false"
+                                        aria-controls="flush-collapseThree1">
+                                        <i class="ri-table-line me-4"></i>
+                                        <span>Tables</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree1" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Basic Table</li>
+                                            <li>Datatables</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-item my-3">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo2" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo2">
+                                        <i class="ri-map-pin-line me-4"></i>
+                                        <span>Maps</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo2" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Google Maps</li>
+                                            <li>Jsvectormaps</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-item my-3">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree3" aria-expanded="false"
+                                        aria-controls="flush-collapseThree3">
+                                        <i class="ri-bar-chart-box-line me-4"></i>
+                                        <span>Charts</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree3" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Chart Js</li>
+                                            <li>Sparkline</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nan-item my-3">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo4" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo4">
+                                        <i class="ri-computer-line me-4"></i>
+                                        <span>Widgets</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo4" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-item my-3">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree5" aria-expanded="false"
+                                        aria-controls="flush-collapseThree5">
+                                        <i class="ri-file-3-line me-4"></i>
+                                        <span>Documentation</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree5" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-item mb-4 mt-3">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo6" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo6">
+                                        <i class="ri-menu-fill me-4"></i>
+                                        <span>Menue Levels</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo6" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li class="dropdown-menu">Level 1
+                                                <ul>
+                                                    <li>Level 2</li>
+                                                    <li>Level 2</li>
+                                                </ul>
+                                            </li>
+                                            <li>Level 1</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- topnavbar start -->
+            <div class="col-9  ">
+                <div class="navtop  ">
+                    <div class="row my-4 text-align-center ">
+                        <div class="col-4 ms-5">
+                            <div class="d-flex">
+
+                                <input class="form-control" type="text" placeholder="Search...">
+
+
+                            </div>
+
+                        </div>
+                        <div class="col-7 d-flex justify-content-end ps-5 text-align-center">
+                            <i class="ri-mail-line me-3"></i>
+                            <i class="ri-notification-4-line me-3"></i>
+                            <i class="ri-stack-fill me-3"></i>
+                            <div class="d-flex">
+                                <div class="circle bg-black rounded-circle me-3" style="width: 2.7rem; height: 2.7rem;">
+                                    <img src="./images/girl6.png" alt="" class="rounded-circle img-fluid">
+                                </div>
+                                <p>Hi,Batool</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- topnavbar ends -->
+                <div class="contentwrapper bg-light">
+                    <div class="row py-4">
+                        <div class="col-4">
+                            <h2>Dashboard</h2>
+                            <p>Free Bootstrap 5 Admin Dashboard</p>
+                        </div>
+                        <div class="col-6 ms-auto d-flex justify-content-end py-4">
+                            <div class="buttons">
+                                <a href="#" class="btn btn-label-info btn-round me-2">Manage</a>
+                                <a href="#" class="btn btn-primary btn-round">Add Customer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="card mb-3 border-0 shadow" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4 p-3">
+                                        <div class="icon text-center text-white">
+                                            <i class="ri-team-fill"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body ps-4">
+                                            <p class="card-title">Visitors </p>
+                                            <h5 class="card-text">1,294
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="card mb-3 border-0 shadow" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4 p-3">
+                                        <div class="icon bg-info text-center text-white">
+                                            <i class="ri-group-fill"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body ps-4">
+                                            <p class="card-title">Subscribers </p>
+                                            <h5 class="card-text">1303
+                                            </h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="card mb-3 shadow border-0" style="max-width: 540px; ">
+                                <div class="row g-0">
+                                    <div class="col-md-4 p-3">
+                                        <div class="icon bg-success text-center text-white">
+                                            <i class="ri-luggage-cart-fill"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body ps-4">
+                                            <p class="card-title">Sales </p>
+                                            <h5 class="card-text"> 1,345
+                                            </h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="card mb-3 shadow border-0" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4 p-3">
+                                        <div class="icon  bg-secondary  text-center text-white">
+                                            <i class="ri-checkbox-circle-fill"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body  ps-4">
+                                            <p class="card-title">Order </p>
+                                            <h5 class="card-text">576
+                                            </h5>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+
+                            <img src="./images/graph.png" alt="">
+                        </div>
+                        <div class="col-4">
+                            <div class="col-4">
+                                <div class="row d-flex flex-column gap-4">
+                                    <div class="col-6"><img src="./images/blue card.png" alt=""></div>
+                                    <div class="col-6"><img src="./images/white card.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-2">
+                        <div class="col-12 bg-white">
+                            <h1>Users Geolocation</h1>
+                            <p>Map of the distribution of users around the world</p>
+                        </div>
+                    </div>
+                    <div class="row bg-white">
+                        <div class="col-6">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col"><img src="./images/pk.png" alt=""></th>
+                                        <th scope="col">Pakistan</th>
+                                        <th scope="col">2320</th>
+                                        <th scope="col">48.7%</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><img src="./images/ad.png" alt=""></th>
+                                        <td>China</td>
+                                        <td>3450</td>
+                                        <td>37.3%</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><img src="./images/pa.png" alt=""></th>
+                                        <td>USA</td>
+                                        <td>678</td>
+                                        <td>5.7%</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col"><img src="./images/pk.png" alt=""></th>
+                                        <th scope="col">Pakistan</th>
+                                        <th scope="col">2320</th>
+                                        <th scope="col">48.7%</th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col"><img src="./images/pk.png" alt=""></th>
+                                        <th scope="col">Pakistan</th>
+                                        <th scope="col">2320</th>
+                                        <th scope="col">48.7%</th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><img src="./images/ad.png" alt=""></th>
+                                        <td>China</td>
+                                        <td>3450</td>
+                                        <td>37.3%</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col"><img src="./images/pk.png" alt=""></th>
+                                        <th scope="col">Pakistan</th>
+                                        <th scope="col">2320</th>
+                                        <th scope="col">48.7%</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-5"><img src="./images/white graph.png" alt=""></div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+    <!-- <div class="container-fluid">
+
+
+        <div class="row">
+          
+            <div class="col-9">
+                <div class="row">
+                    <div class="col-6">
+                        <nav class="navbar position-stiky ">
+                            <div class="container-fluid">
+                                <form class="d-flex" role="search">
+                                    <img src="./icons/search-line.png" alt="">
+                                    <button class="btn btn-outline-success" type="submit">Search</button> 
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-6">
+                        <div class="navbar-icons d-flex gap-5 pt-3 ">
+                            <img src="./icons/mail-line.png" alt="">
+                            <img src="./icons/notification-4-line.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row bg-body-tertiary">
+                    <div class="col-8">
+                        <h1>Dashboard</h1>
+                        Free Bootstrap 5 Admin Dashboard
+                    </div>
+                    <div class="col-4 d-flex  gap-5">
+                        <button class="btn btn-outline-primary" type="submit">Mange</button>
+                        <button class="btn btn-primary" type="submit">Add Costomer</button>
+                    </div>
+
+                </div>
+                <div class="container text-center py-2 bg-body-tertiary">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4 py-2 ">
+                                        <img src="./images/girl6.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Visitors</h5>
+                                            <p class="card-text">1,294</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="./images/girl6.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Subscribers</h5>
+                                            <p class="card-text">1303</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3"> <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./images/girl6.png" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Subscribers</h5>
+                                        <p class="card-text">1303</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div></div>
+                        <div class="col-3"> <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./images/girl6.png" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Subscribers</h5>
+                                        <p class="card-text">1303</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div></div>
+                    </div>
+
+                </div>
+               
+                <div class="row">
+                <div class="col-8"><img src="./images/graph.png" alt=""></div>
+                <div class="col-4">
+                    <div class="row d-flex flex-column gap-4">
+                        <div class="col-6"><img src="./images/blue card.png" alt=""></div>
+                        <div class="col-6"><img src="./images/white card.png" alt=""></div>
+                    </div>
+                </div>
+                </div>
+                                 <div class="row py-2">
+   <div class="col-12 bg-body-tertiary">
+                     <h1>Users Geolocation</h1>
+                        <p>Map of the distribution of users around the world</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-6"> <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col"><img src="./images/pk.png" alt=""></th>
+                            <th scope="col">Pakistan</th>
+                            <th scope="col">2320</th>
+                            <th scope="col">48.7%</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row"><img src="./images/ad.png" alt=""></th>
+                            <td>China</td>
+                            <td>3450</td>
+                            <td>37.3%</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><img src="./images/pa.png" alt=""></th>
+                            <td>USA</td>
+                            <td>678</td>
+                            <td>5.7%</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                            <td>Thornton</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">5</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                            <td>Thornton</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">6</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table></div>
+                      <div class="col-6"><img src="./images/map.png" alt=""></div>
+                </div>
+
+               
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div> -->
+    <script src="./bootstrap.js"></script>
+</body>
+
+</html>

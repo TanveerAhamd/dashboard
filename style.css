@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-label-info{
+    background: rgba(72, 171, 247, .1);
+    color: #48abf7 !important;
+    border-color: transparent;
+}
+.btn-label-info:hover{
+    background-color: #48abf7;
+    color: white !important;
+}
+
+.btn {
+    padding: .65rem 1.4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 1;
+    border-radius: 3px;
+}
+.btn-round{
+    border-radius: 100px;
+}
+.icon{
+    width: 65px;
+    height: 65px;
+    padding-left: 0;
+    padding-right: 0;
+   font-size: 2.2em;
+    background-color: #1572e8;
+    border-radius: 10px;
+}
